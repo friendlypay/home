@@ -26,6 +26,6 @@ btnLogin.onclick = function () {
         document.getElementById("notification").innerHTML = `<div class="notification">Tài khoản hoặc mật khẩu sai!</div>`;
     } else {
         alert('Đăng nhập thành công!');
-        window.location.href = "/assets/HTML/spin.html";
+        window.location.href = "/assets/spin.html";
     }
 }

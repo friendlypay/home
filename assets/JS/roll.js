@@ -20,7 +20,7 @@ function spin() {
     if (block == 1) {
         const loginC = confirm('You need to Login');
         if (loginC) {
-            window.location.href = '/assets/HTML/login.html';
+            window.location.href = '/assets/login.html';
         }
         return true;
     }
